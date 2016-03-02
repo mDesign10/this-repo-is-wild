@@ -39,7 +39,7 @@
     <gap:plugin name="com.commontime.cordova.beacon" source="npm" />
     <gap:plugin name="com.commontime.cordova.notification" source="npm" />
     <!--<gap:plugin name="com.commontime.cordova.audio" source="npm" />-->
-    <!--<gap:plugin name="com.commontime.cordova.splitscreen" source="npm" />-->
+    <gap:plugin name="com.commontime.cordova.splitscreen" source="npm" />
 
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="StatusBarOverlaysWebView" value="false" />
@@ -49,7 +49,7 @@
     <preference name="Orientation" value="default" />
     <preference name="android-minSdkVersion" value="15" />
     <preference name="android-build-tool" value="gradle" />
-    <!--<preference name="Orientation" value="all" />-->
+    <preference name="Orientation" value="all" />
     <preference name="android-windowSoftInputMode" value="adjustResize" />
     <icon src="icon.png" />
     <gap:splash src="portrait-xhdpi.png" gap:platform="android" gap:qualifier="port-xhdpi" />
